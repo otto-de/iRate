@@ -167,6 +167,8 @@ typedef NS_ENUM(NSUInteger, iRateErrorCode)
 - (void)promptIfAllCriteriaMet;
 - (void)openRatingsPageInAppStore;
 - (void)logEvent:(BOOL)deferPrompt;
+// We have exposed this method to fit our requirements (UAC's) and made a pull request at GitHub.
+- (void)remindLater;
 
 @end
 
